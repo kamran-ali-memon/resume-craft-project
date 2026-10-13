@@ -43,7 +43,7 @@ export default function Register() {
 
         <div className="mt-6 space-y-4">
           {[
-            ["name", "Full name", "text", "Kamran Ali Memon"],
+            ["name", "Full name", "text", "Enter Your Name"],
             ["email", "Email", "email", "you@example.com"],
             ["password", "Password", "password", "At least 6 characters"]
           ].map(([key, label, type, placeholder]) => (

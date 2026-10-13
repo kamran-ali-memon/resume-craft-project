@@ -17,7 +17,7 @@ app.use(
     credentials: true
   })
 );
-app.use(express.json({ limit: "2mb" }));
+app.use(express.json());
 
 app.get("/api/health", (req, res) => {
   res.json({
